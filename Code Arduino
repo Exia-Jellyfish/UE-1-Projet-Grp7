@@ -1,1 +1,12 @@
+//  Pin d'entrée du cardiofréquencemètre (à définir)
+#define CFM_INPUT 
 
+void setup ()
+{
+
+}
+
+void loop ()
+{
+
+}
