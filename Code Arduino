@@ -1,1 +1,14 @@
+//  Pin d'entrée du cardiofréquencemètre (à définir)
+#define CFM_INPUT 
 
+int in ;
+
+void setup ()
+{
+    pinMode(CFM_INPUT, INPUT) ;
+}
+
+void loop ()
+{
+    in = analogRead(CFM_INPUT) ;
+}
