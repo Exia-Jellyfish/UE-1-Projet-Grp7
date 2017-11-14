@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1510686925 source:c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\actions.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"données.h"
+	"actions.h"
+
+1510686925 c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\menu.h
+	<stdio.h>
+	<stdlib.h>
+
+1510686925 c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\données.h
+	<stdio.h>
+	<stdlib.h>
+
+1510686925 c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\actions.h
+	<stdio.h>
+	<stdlib.h>
+
+1510686925 source:c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\données.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"données.h"
+	"actions.h"
+
+1510686925 source:c:\users\guill\documents\exia\a1\projeeeeeet\projet 1\projeeet\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"données.h"
+	"actions.h"
+
