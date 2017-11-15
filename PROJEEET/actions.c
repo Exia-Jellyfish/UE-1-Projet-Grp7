@@ -1,4 +1,4 @@
-//Importation des bibliotheques
+//Importation des bibliothèques
 #include <stdio.h>
 #include <stdlib.h>
 

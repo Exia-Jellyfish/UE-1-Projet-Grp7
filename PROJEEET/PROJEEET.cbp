@@ -35,10 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="actions.h" />
-		<Unit filename="données.c">
+		<Unit filename="donnees.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="données.h" />
+		<Unit filename="donnees.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

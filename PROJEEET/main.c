@@ -4,7 +4,7 @@
 
 // Importation des headers
 #include "menu.h"
-#include "donn�es.h"
+#include "donnees.h"
 #include "actions.h"
 
 
@@ -13,53 +13,73 @@ int main(int argc, char *argv[])
 {
 // Les varaibles
     int choix=0;                            // choix de l'utilisateur csur ce qqu'il veut afficher
+    int menu=1;                             // Choix pour l'affichage ou non du menu
+    int i ;                                 // compteur
 
 //Les tableaux
-    struct donnees *tableauDonnees;         //tableau qui contiendra les lignes du fichier csv
-
-//Les fichiers
-    FILE *f=NULL;
+         //tableau qui contiendra les lignes du fichier csv
+    struct donnee *arbre[NBEDONNEES];   // arbre contenant les valeurs plus le lien (facilite le tri)
 
 
-    f= fopen(NOMFICHIER,"r");
-    if (f!=NULL)                            // V�rification de l'ouverture du fichier
+    for (i=0;i<NBEDONNEES;i++)
     {
-        lireFichierCSV(tableauDonnees,f);   // lecture du fichier et mise des valeurs dans un tableau
-    }
-    else
+        arbre[i]=NULL;
+    }                                       // Initialisation de l'arbre.
+
+
+
+    lireFichierCSV(arbre);   // lecture du fichier et mise des valeurs dans un tableau
+    do
     {
-        fclose(f);
-        exit(EXIT_FAILURE);
-    }
-    fclose(f);
+        choix=afficherMenu();
+        while (choix>8)                     // Verification que le choix est correcte
+        {
+            choix=afficherMenu();
+        }
+/*
+        switch(choix)                       // appelle de la fonction associer au choix fi
+        {
+            case 1:
+                afficherFichier(tableauDonnees);
+                break;
 
-    while (choix<=0 || choix>??)            // Verification que le choix est correcte
-    {
-        choix=aficherMenu();
-    }
+            case 2:
+                affichageCroissant();
+                break;
 
-    switch(choix)                           // appelle de la fonction associer au choix fi
-    {
-        case 1:
+            case 3:
+                affichageDecroissant();
+                break;
 
-        case 2:
+            case 4:
+                recherche();
+                break;
 
-        case 3:
+            case 5:
+                moyennePouls();
+                break;
 
-        case 4:
+            case 6:
+                afficherMax();
+                break;
 
-        case 5:
+            case 7:
+                afficherMin();
+                break;
 
-        case 6:
+            case 0:
+                menu=0;
+                break;
 
-        case 7:
+            default:
+                printf("_______ERRREUR_______\n Etat Impossible");
+                break;
 
-        case 8:
+        }
+        printf("souhaitez vous avoir d'autres information?\n Votre choix:");
+        scanf ("%d",&menu);
+*/
+    }while(menu!=0);
 
-        case default:
-            printf("_______ERRREUR_______\n Etat Impossible");
-            break;
-
-    }
-
-    return 0;
+return 0;
+}
