@@ -1,11 +1,10 @@
-
-//Importation des bibliothèques
+//Importation des bibliothï¿½ques
 #include <stdio.h>
 #include <stdlib.h>
 
 // Importation des headers
 #include "menu.h"
-#include "données.h"
+#include "donnï¿½es.h"
 #include "actions.h"
 
 
@@ -23,7 +22,7 @@ int main(int argc, char *argv[])
 
 
     f= fopen(NOMFICHIER,"r");
-    if (f!=NULL)                            // Vérification de l'ouverture du fichier
+    if (f!=NULL)                            // Vï¿½rification de l'ouverture du fichier
     {
         lireFichierCSV(tableauDonnees,f);   // lecture du fichier et mise des valeurs dans un tableau
     }
@@ -64,4 +63,3 @@ int main(int argc, char *argv[])
     }
 
     return 0;
-}
