@@ -70,13 +70,13 @@ int main(int argc, char *argv[])
             case 5:
                 moyennePouls();
                 break;
-
+            */
             case 6:
-                afficherMax();
+                afficherMax(arbre);
                 break;
-
+ /*
             case 7:
-                afficherMin();
+                afficherMin(arbre);
                 break;
 */
             case 0:

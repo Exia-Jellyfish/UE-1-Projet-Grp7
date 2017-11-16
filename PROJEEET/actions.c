@@ -83,3 +83,20 @@ void triDeroissantTemps(struct manipDonnee**arbre)
             }
         }
 }
+
+void  afficherMax(struct manipDonnee **arbre)
+{
+    struct manipDonnee *tmp1;
+    int i;
+    for(i=0;i<10;i++)
+    {
+        tmp1=arbre[0];
+        if (tmp1->poul<arbre[i]->poul)
+        {
+            tmp1=arbre[i];
+        }
+    }
+    printf("le pouls max de vos donnees est: %d",tmp1->poul);
+}
+
+v
