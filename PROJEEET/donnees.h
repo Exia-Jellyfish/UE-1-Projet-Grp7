@@ -17,3 +17,5 @@ struct manipDonnee {
 
 //Prototypes
 void lireFichierCSV(struct manipDonnee **arbre);
+
+void afficherFichier(struct manipDonnee **arbre, int nbrLigne);

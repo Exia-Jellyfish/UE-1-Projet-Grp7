@@ -19,7 +19,6 @@ void lireFichierCSV(struct manipDonnee **arbre)
     f= fopen("test.txt","r");
 
 
-
     if (f!=NULL)
     {
         while (fgets(chaine,10,f)!=NULL)
@@ -35,7 +34,6 @@ void lireFichierCSV(struct manipDonnee **arbre)
             printf("la transition a ete ajoutee a l'arbre\n");
             printf("________________________________________\n");
 
-
             i+=1;
 
         }
@@ -46,5 +44,26 @@ void lireFichierCSV(struct manipDonnee **arbre)
         printf("Le fichier n'a pu être ouverts");
         fclose(f);
         exit(EXIT_FAILURE);
+    }
+}
+
+void afficherFichier(struct manipDonnee **arbre, int nbrLigne)
+{
+    int i=0;
+    int nbTest=1;
+    for (i=0;i<10;i++)
+    {
+        if (nbrLigne==1)
+        {
+          printf("La ligne numero: %d correspond a la donnee : %d;%d\n",nbTest,arbre[i]->temps,arbre[i]->poul);
+        }
+        else
+        {
+           printf("%d;%d\n",arbre[i]->temps,arbre[i]->poul);
+        }
+        nbTest+=1;
+
+
+
     }
 }

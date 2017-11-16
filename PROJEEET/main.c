@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
     int choix=0;                            // choix de l'utilisateur csur ce qqu'il veut afficher
     int menu=1;                             // Choix pour l'affichage ou non du menu
     int i ;                                 // compteur
+    int nbrLigne=0;
 
 //Les tableaux
     struct manipDonnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
-
 
     for (i=0;i<NBEDONNEES;i++)
     {
@@ -26,9 +26,7 @@ int main(int argc, char *argv[])
     }                                       // Initialisation de l'arbre.
 
 
-
-    lireFichierCSV(arbre);                  // lecture du fichier et mise des valeurs dans un tableau
-    printf("carotte");
+    lireFichierCSV(arbre);                  // lecture du fichier et mise des valeurs dans un arbre
     do
     {
         choix=afficherMenu();
@@ -40,11 +38,16 @@ int main(int argc, char *argv[])
 
         switch(choix)                       // appelle de la fonction associer au choix fi
         {
-            /*
-            case 1:
-                afficherFichier(tableauDonnees);
-                break;
 
+            case 1:
+                printf("Souhaitez vous egalement avoir le nombre de ligne dans votre programme? \n  1)Oui\n  2)Non\n Votre choix: ");
+                scanf("%d",&nbrLigne);
+                printf("\n\n");
+
+
+                afficherFichier(arbre,nbrLigne);
+                break;
+            /*
             case 2:
                 affichageCroissant();
                 break;
@@ -79,7 +82,7 @@ int main(int argc, char *argv[])
                 break;
 
         }
-        printf("souhaitez vous avoir d'autres information?\n Votre choix:");
+        printf("\nSouhaitez vous avoir d'autres information?\n  0)Non\n  1)Oui\nVotre choix:");
         scanf ("%d",&menu);
 
     }while(menu!=0);
