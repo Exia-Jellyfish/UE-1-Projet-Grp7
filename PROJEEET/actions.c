@@ -25,3 +25,61 @@ void ajout(struct manipDonnee **arbre , struct manipDonnee *t ,int i)
     t->next=arbre[i];
     arbre[i]=t;
 }
+
+void triCroissant(struct manipDonnee**arbre)
+{
+    int i,k;
+    struct manipDonnee *tmp;
+
+    for(k=0;k<10;k++)
+        {
+           for(i=1;i<10;i++)
+            {
+                if (arbre[i-1]->poul>arbre[i]->poul)
+                {
+                    tmp=arbre[i];
+                    arbre[i]=arbre[i-1];
+                    arbre[i-1]=tmp;
+                }
+            }
+        }
+}
+
+
+void triDeroissantPouls(struct manipDonnee**arbre)
+{
+    int i,k;
+    struct manipDonnee *tmp;
+
+    for(k=0;k<10;k++)
+        {
+           for(i=1;i<10;i++)
+            {
+                if (arbre[i-1]->poul<arbre[i]->poul)
+                {
+                    tmp=arbre[i];
+                    arbre[i]=arbre[i-1];
+                    arbre[i-1]=tmp;
+                }
+            }
+        }
+}
+
+void triDeroissantTemps(struct manipDonnee**arbre)
+{
+    int i,k;
+    struct manipDonnee *tmp;
+
+    for(k=0;k<10;k++)
+        {
+           for(i=1;i<10;i++)
+            {
+                if (arbre[i-1]->temps<arbre[i]->temps)
+                {
+                    tmp=arbre[i];
+                    arbre[i]=arbre[i-1];
+                    arbre[i-1]=tmp;
+                }
+            }
+        }
+}

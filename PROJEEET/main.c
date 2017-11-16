@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     int menu=1;                             // Choix pour l'affichage ou non du menu
     int i ;                                 // compteur
     int nbrLigne=0;
+    int ref=1;
 
 //Les tableaux
     struct manipDonnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
@@ -47,15 +48,21 @@ int main(int argc, char *argv[])
 
                 afficherFichier(arbre,nbrLigne);
                 break;
-            /*
+
+
             case 2:
-                affichageCroissant();
+                printf("Voulez vous triez selon le temps (1) ou selon le pouls (2) ?\nVotre reponse: ");
+                scanf("%d",&ref);
+                afficherCroissant(arbre,ref);
                 break;
+
 
             case 3:
-                affichageDecroissant();
+                printf("Voulez vous triez selon le temps (1) ou selon le pouls (2) ?\nVotre reponse: ");
+                scanf("%d",&ref);
+                afficherDecroissant(arbre,ref);
                 break;
-
+            /*
             case 4:
                 recherche();
                 break;

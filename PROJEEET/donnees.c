@@ -54,6 +54,7 @@ void afficherFichier(struct manipDonnee **arbre, int nbrLigne)
     int nbTest=1;
     for (i=0;i<10;i++)
     {
+
         if (nbrLigne==1)
         {
           printf("La ligne numero: %d correspond a la donnee : %d;%d\n",nbTest,arbre[i]->temps,arbre[i]->poul);
@@ -69,4 +70,28 @@ void afficherFichier(struct manipDonnee **arbre, int nbrLigne)
 void afficherCroissant(struct manipDonnee **arbre, int controle)
 {
 
+    if (controle==1)
+    {
+        afficherFichier(arbre,2);
+    }
+    else
+    {
+        triCroissant(arbre);
+        afficherFichier(arbre,2);
+    }
+}
+
+void afficherDecroissant(struct manipDonnee **arbre, int controle)
+{
+
+    if (controle==1)
+    {
+        triDeroissantTemps(arbre);
+        afficherFichier(arbre,2);
+    }
+    else
+    {
+       triDeroissantPouls(arbre);
+        afficherFichier(arbre,2);
+    }
 }
