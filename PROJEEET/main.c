@@ -17,8 +17,7 @@ int main(int argc, char *argv[])
     int i ;                                 // compteur
 
 //Les tableaux
-    struct donnee *tabDonnees[NBEDONNEES];               //tableau qui contiendra les lignes du fichier csv
-    struct donnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
+    struct manipDonnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
 
 
     for (i=0;i<NBEDONNEES;i++)
@@ -28,7 +27,8 @@ int main(int argc, char *argv[])
 
 
 
-    lireFichierCSV(tabDonnees);   // lecture du fichier et mise des valeurs dans un tableau
+    lireFichierCSV(arbre);                  // lecture du fichier et mise des valeurs dans un tableau
+    printf("carotte");
     do
     {
         choix=afficherMenu();
@@ -36,9 +36,11 @@ int main(int argc, char *argv[])
         {
             choix=afficherMenu();
         }
-/*
+
+
         switch(choix)                       // appelle de la fonction associer au choix fi
         {
+            /*
             case 1:
                 afficherFichier(tableauDonnees);
                 break;
@@ -66,19 +68,20 @@ int main(int argc, char *argv[])
             case 7:
                 afficherMin();
                 break;
-
+*/
             case 0:
                 menu=0;
+                return 0;
                 break;
 
             default:
-                printf("_______ERRREUR_______\n Etat Impossible");
+                printf("_______ERRREUR_______\n Etat Impossible\n\n");
                 break;
 
         }
         printf("souhaitez vous avoir d'autres information?\n Votre choix:");
         scanf ("%d",&menu);
-*/
+
     }while(menu!=0);
 
 return 0;

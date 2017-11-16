@@ -3,19 +3,17 @@
 #include <stdlib.h>
 
 //Constante - nombre de donnees dans le fichier au maximum
-#define NBEDONNEES 100
+#define NBEDONNEES 10
 
 #define TAILLE 1000
 
-// Structures
 
-struct donnee {
+// Structures
+struct manipDonnee {
     int temps;
     int poul;
-    struct donnee *next;
+    struct manipDonnee *next;
 };
 
-
-
 //Prototypes
-void lireFichierCSV(struct donnee **tabDonnees);
+void lireFichierCSV(struct manipDonnee **arbre);
