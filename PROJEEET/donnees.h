@@ -19,3 +19,5 @@ struct manipDonnee {
 void lireFichierCSV(struct manipDonnee **arbre);
 
 void afficherFichier(struct manipDonnee **arbre, int nbrLigne);
+
+void afficherCroissant(struct manipDonnee **arbre, int controle)

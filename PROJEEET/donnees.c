@@ -47,6 +47,7 @@ void lireFichierCSV(struct manipDonnee **arbre)
     }
 }
 
+
 void afficherFichier(struct manipDonnee **arbre, int nbrLigne)
 {
     int i=0;
@@ -62,8 +63,10 @@ void afficherFichier(struct manipDonnee **arbre, int nbrLigne)
            printf("%d;%d\n",arbre[i]->temps,arbre[i]->poul);
         }
         nbTest+=1;
-
-
-
     }
+}
+
+void afficherCroissant(struct manipDonnee **arbre, int controle)
+{
+
 }

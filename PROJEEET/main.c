@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
         {
 
             case 1:
-                printf("Souhaitez vous egalement avoir le nombre de ligne dans votre programme? \n  1)Oui\n  2)Non\n Votre choix: ");
+                printf("Souhaitez vous egalement avoir le nombre de ligne dans votre programme? \n  1)Oui\n  2)Non\nVotre choix: ");
                 scanf("%d",&nbrLigne);
                 printf("\n\n");
 
