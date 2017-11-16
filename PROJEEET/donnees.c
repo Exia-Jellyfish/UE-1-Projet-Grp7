@@ -8,9 +8,10 @@
 #include "actions.h"
 
 
-void lireFichierCSV(struct donnee **arbre)
+void lireFichierCSV(struct donnee **tabDonnees)
 {
     int temps,poul;
+    int i=0;
     char tab[TAILLE];
 
     FILE *f=NULL;
@@ -20,7 +21,7 @@ void lireFichierCSV(struct donnee **arbre)
 
     if (f!=NULL)
     {
-        while (fscanf(f,"%s;%s",)!=NULL)
+        while (fscanf(f,"%d;%d",&temps,&poul)!=NULL)
         {
 
         }

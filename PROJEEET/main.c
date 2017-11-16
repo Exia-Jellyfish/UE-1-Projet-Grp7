@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
     int i ;                                 // compteur
 
 //Les tableaux
-         //tableau qui contiendra les lignes du fichier csv
-    struct donnee *arbre[NBEDONNEES];   // arbre contenant les valeurs plus le lien (facilite le tri)
+    struct donnee *tabDonnees[NBEDONNEES];               //tableau qui contiendra les lignes du fichier csv
+    struct donnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
 
 
     for (i=0;i<NBEDONNEES;i++)
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 
 
-    lireFichierCSV(arbre);   // lecture du fichier et mise des valeurs dans un tableau
+    lireFichierCSV(tabDonnees);   // lecture du fichier et mise des valeurs dans un tableau
     do
     {
         choix=afficherMenu();
