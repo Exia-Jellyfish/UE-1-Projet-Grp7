@@ -74,11 +74,11 @@ int main(int argc, char *argv[])
             case 6:
                 afficherMax(arbre);
                 break;
- /*
+
             case 7:
                 afficherMin(arbre);
                 break;
-*/
+
             case 0:
                 menu=0;
                 return 0;

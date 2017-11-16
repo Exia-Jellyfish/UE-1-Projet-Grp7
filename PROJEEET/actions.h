@@ -12,3 +12,5 @@ void triDeroissantPouls(struct manipDonnee**arbre);
 void triDeroissantTemps(struct manipDonnee**arbre);
 
 void afficherMax(struct manipDonnee **arbre);
+
+void  afficherMin(struct manipDonnee **arbre);
