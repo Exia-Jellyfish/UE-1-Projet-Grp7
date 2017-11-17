@@ -26,7 +26,7 @@ void ajout(struct manipDonnee **arbre , struct manipDonnee *t ,int i)
     arbre[i]=t;
 }
 
-void triCroissant(struct manipDonnee**arbre)
+void triCroissant(struct manipDonnee **arbre)
 {
     int i,k;
     struct manipDonnee *tmp;
