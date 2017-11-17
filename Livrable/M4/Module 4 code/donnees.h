@@ -12,14 +12,14 @@
 struct manipDonnee {
     int temps;
     int poul;
-    struct manipDonnee *next;
+    struct manipDonnee *next;  // structures de manipulation  de donnees
 };
 
 //Prototypes
-void lireFichierCSV(struct manipDonnee **arbre);
+void lireFichierCSV(struct manipDonnee **arbre); // fonction de lecture de fichier
 
-void afficherFichier(struct manipDonnee **arbre, int nbrLigne);
+void afficherFichier(struct manipDonnee **arbre, int nbrLigne); // Fonction pour afficher le fichier
 
-void afficherCroissant(struct manipDonnee **arbre, int controle);
+void afficherCroissant(struct manipDonnee **arbre, int controle); // Fonction pour afficher le resultat de  la fonction de tri
 
-void afficherDecroissant(struct manipDonnee **arbre, int controle);
+void afficherDecroissant(struct manipDonnee **arbre, int controle); // Fonction pour afficher le resultat de la fonction de tri
