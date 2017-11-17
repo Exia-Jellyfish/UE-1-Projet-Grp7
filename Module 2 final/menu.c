@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include "menu.h"
 
-void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *LedAllumee)
+void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *ledAllumee)
 {
-
     printf("Bonjour,\nChoisissez les parametres d'affichage de vos Leds :"
                    "\nTapez 0 pour un clignotement au rythme du coeur"
                    "\nTapez 1 pour choisir d'allumer une Led sur X"
@@ -18,11 +17,10 @@ void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *LedAllumee)
                 /*case 0 clignotement du coeur  aucune valeurs à entrer*/
             }
         case 1:
-            while (nbLedsAllumees < 0)
             {
                 printf("\nTapez une valeur comprise entre 1 et 10 : ");
                 scanf("%d", nbLedsAllumees);
-                if (*nbLedsAllumees < 1 || *nbLedsAllumees > 10)   //Le if servire de sécurité en cas d'erreur dans l'entrée de valeurs dans chaque cas
+                if (*nbLedsAllumees < 1 || *nbLedsAllumees > 10)   //Le if servira de sécurité en cas d'erreur dans l'entrée de valeurs dans chaque cas
                 {
                     printf("\nValeur non comprise entre 1 et 10 !\n");
                     *nbLedsAllumees = -1;
@@ -30,19 +28,17 @@ void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *LedAllumee)
             }
             break;
         case 2:
-            while (LedAllumee < 0)
             {
                 printf("\nChoisissez la Led a allumer, entre 0 et 9 : \n");
-                scanf("%d", LedAllumee);
-                if (*LedAllumee < 0 || *LedAllumee > 9)
+                scanf("%d", ledAllumee);
+                if (*ledAllumee < 0 || *ledAllumee > 9)
                 {
                     printf("\nValeur non reconnue\n");
-                    *LedAllumee = -1;
+                    *ledAllumee = -1;
                 }
             }
             break;
         case 3:
-            while (nbLedsAllumees < 0)
             {
                 printf("\nTapez une valeur comprise entre 1 et 3 : ");
                 scanf("%d", nbLedsAllumees);
