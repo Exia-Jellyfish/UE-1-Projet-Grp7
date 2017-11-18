@@ -16,3 +16,5 @@ void afficherMax(struct manipDonnee **arbre); // Fonction dde recherche
 void  afficherMin(struct manipDonnee **arbre); // Fonction de recherche
 
 void  afficherMin(struct manipDonnee **arbre); // Fonction de recherche
+
+void recherche(struct manipDonnee **arbre,int pouls,int val); // recherche

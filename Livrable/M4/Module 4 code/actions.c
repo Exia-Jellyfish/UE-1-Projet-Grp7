@@ -102,7 +102,7 @@ void  afficherMax(struct manipDonnee **arbre)
 void  afficherMin(struct manipDonnee **arbre)
 {
     struct manipDonnee *tmp1;
-    int i;
+    int i=0;
     tmp1=arbre[0];
     for(i=0;i<10;i++)
     {
@@ -112,4 +112,30 @@ void  afficherMin(struct manipDonnee **arbre)
         }
     }
     printf("le pouls minimal de vos donnees est: %d",tmp1->poul);
+}
+
+void recherche(struct manipDonnee **arbre,int pouls,int val)
+{
+    int i=0;
+    int temps=0;
+    for(i=0;i<10;i++)
+    {
+        if (pouls==arbre[i]->poul)
+        {
+            temps=arbre[i]->temps;
+            printf("Le pouls '%d' rechercher est apparu au temps :%d ms",pouls,temps);
+        }
+
+        if (val==1 && pouls<=arbre[i]->poul)
+        {
+            temps=arbre[i]->temps;
+            printf("Le pouls '%d' est apparu au temps :%d ms\n",arbre[i]->poul,temps);
+        }
+
+    }
+    if (temps==0)
+    {
+        printf("Le pouls que vous recherche n'est pas dans la liste ");
+    }
+
 }

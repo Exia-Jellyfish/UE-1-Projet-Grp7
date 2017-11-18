@@ -17,6 +17,8 @@ int main(int argc, char *argv[])
     int i ;                                 // compteur
     int nbrLigne=0;
     int ref=1;
+    int pouls=0;
+    int val=0;
 
 //Les tableaux
     struct manipDonnee *arbre[NBEDONNEES];       // arbre contenant les valeurs plus le lien (facilite le tri)
@@ -62,11 +64,15 @@ int main(int argc, char *argv[])
                 scanf("%d",&ref);
                 afficherDecroissant(arbre,ref);
                 break;
-            /*
-            case 4:
-                recherche();
-                break;
 
+            case 4:
+                printf("Souhaitez vous afficher tous les pouls au dessus d'une valeur particuliere?\n 1) oui\n 2) non\nVotre reponse:");
+                scanf("%d",&val);
+                printf("Veuillez entrer la valeur du pouls de reference: ");
+                scanf("%d",&pouls);
+                recherche(arbre,pouls,val);
+                break;
+            /*
             case 5:
                 moyennePouls();
                 break;
