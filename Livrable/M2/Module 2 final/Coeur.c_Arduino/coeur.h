@@ -502,6 +502,298 @@ void chenille(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int p
   }
 
 }
+  void led1(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    
+     {
+      while (LedAllumee == 1)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, HIGH);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+     }
+ 
+void led2 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+       while (LedAllumee == 2)
+       {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, HIGH);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, HIGH);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+void led3 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+       while (LedAllumee == 3)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, HIGH);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+    
+void led4 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+     while (LedAllumee == 4)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, HIGH);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+    
+    void led5 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+     while (LedAllumee == 5)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, HIGH);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+    void led6 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+     while (LedAllumee == 6)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, HIGH);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+   void led7 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+       while (LedAllumee == 7)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, HIGH);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+    void led8 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+     while (LedAllumee == 8)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, HIGH);
+    digitalWrite(pin10, LOW);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+    void ed9 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int LedAllumee)
+    {
+       while (LedAllumee == 9)
+      {
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, HIGH);
+    
+    
+    delay(416);
+
+    digitalWrite(pin11, LOW);
+    digitalWrite(pin2, LOW);
+    digitalWrite(pin3, LOW);
+    digitalWrite(pin4, LOW);
+    digitalWrite(pin5, LOW);
+    digitalWrite(pin6, LOW);
+    digitalWrite(pin7, LOW);
+    digitalWrite(pin8, LOW);
+    digitalWrite(pin9, LOW);
+    digitalWrite(pin10, LOW);
+
+    delay(416);
+    }
+    }
+
 
 
 

@@ -7,7 +7,6 @@ void choixMenu(int *modeAffichage, int *nbLedsAllumees,int *LedsAllumees, int *l
     printf("Bonjour,\nChoisissez les parametres d'affichage de vos Leds :"
                    "\nTapez 0 pour un clignotement au rythme du coeur"
                    "\nTapez 1 pour choisir d'allumer une Led sur X"
-                   "\nTapez 2 pour choisir d'allumer une Led que vous choisirez"
                    "\nTapez 3 Pour allumer les Leds en mode chenille\n");
     scanf("%d", modeAffichage);
 
@@ -79,17 +78,11 @@ void choixMenu(int *modeAffichage, int *nbLedsAllumees,int *LedsAllumees, int *l
                     printf("\nValeur non reconnue\n");
                     *ledAllumee = -1;
                 }
+
             }
             break;
         case 3:
             {
-                printf("\nTapez une valeur comprise entre 1 et 3 : ");
-                scanf("%d", nbLedsAllumees);
-                if (*nbLedsAllumees < 1 || *nbLedsAllumees > 3)
-                {
-                    printf("\nVous n'avez pas entre une valeur comprise entre 1 et 3 !\n");
-                    *nbLedsAllumees = -1;
-                }
             }
             break;
         default:

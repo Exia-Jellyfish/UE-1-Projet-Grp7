@@ -10,7 +10,7 @@
     {
             case 0:
                 {
-                fprintf(fout, "int modeAffichage = %d;\n", *modeAffichage);
+                fprintf(fout, "int modeAffichage = 1;\n");
 
             break;
                 }
@@ -23,13 +23,13 @@
 
             case 2:
                 {
-                fprintf(fout, "int modeAffichage = %d;\nint ledAllumee = %d;\n", *modeAffichage, *LedAllumee);
+                fprintf(fout, "int LedAllumee = %d;", *LedAllumee);
             break;
             }
 
             case 3:
                 {
-                fprintf(fout, "int modeAffichage = %d;\nint nbLedsAllumees = %d;\n", *modeAffichage, *nbLedsAllumees);
+                fprintf(fout, "int modeAffichage = 12;\n");
 
             break;
                 }

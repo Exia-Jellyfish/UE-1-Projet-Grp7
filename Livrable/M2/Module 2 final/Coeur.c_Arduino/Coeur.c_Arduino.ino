@@ -156,8 +156,59 @@ void loop() {
 
     }
 
+  
+ /* case 13:
+  {
+    led1 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
   }
 
+      case 14:
+  {
+    led2 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  } 
+    case 15:
+  {
+    led3 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
 
+    case 16:
+  {
+    led4 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
 
+  case 17:
+  {
+    led5 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
+    case 18:
+  {
+    led6 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
+
+    case 19:
+  {
+    led7 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
+  
+  case 20:
+  {
+    led8 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }
+
+    case 21:
+  {
+    led9 (int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int pin7, int pin8, int pin9, int pin10, int modeAffichage);
+    break;
+  }*/
 }
+}
+
+
