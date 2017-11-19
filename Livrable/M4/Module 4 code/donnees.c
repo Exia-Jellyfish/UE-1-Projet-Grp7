@@ -27,13 +27,6 @@ void lireFichierCSV(struct manipDonnee **arbre)
 
             t=transition(time,p);
             ajout(arbre,t,i);
-
-
-            printf("%d;%d\n",arbre[i]->temps,arbre[i]->poul);
-            printf("La transition a ete cree\n");
-            printf("la transition a ete ajoutee a l'arbre\n");
-            printf("________________________________________\n");
-
             i+=1;
 
         }

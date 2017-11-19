@@ -82,7 +82,7 @@
 	"donnees.h"
 	"actions.h"
 
-1510914491 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\donnees.c
+1511126430 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\donnees.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
@@ -97,18 +97,18 @@
 	<stdio.h>
 	<stdlib.h>
 
-1510995527 c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\actions.h
+1510996125 c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\actions.h
 	<stdio.h>
 	<stdlib.h>
 
-1510995247 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\menu.c
+1511123990 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 	"donnees.h"
 	"actions.h"
 
-1510995692 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\actions.c
+1510996057 source:c:\users\guill\documents\github\ue-1-projet-grp7\livrable\m4\module 4 code\actions.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
@@ -122,18 +122,34 @@
 	"donnees.h"
 	"actions.h"
 
-<<<<<<< HEAD
+1511104228 D
+
 1511020733 source:c:\users\blenn\desktop\exia\ue1\_projeeet\ue-1-projet-grp7\livrable\m4\module 4 code\actions.c
-=======
+
 1511104228 source:c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\actions.c
->>>>>>> 689dc654c600a055c0204aba47eb3adbfd9ba80b
+
+1511104228 dc654c600a055c0204aba47eb3adbfd9ba80b
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"donnees.h"
+	"actions.h"
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"donnees.h"
+	"actions.h"
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"donnees.h"
+	"actions.h"
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"
 	"donnees.h"
 	"actions.h"
 
-<<<<<<< HEAD
 1511020733 c:\users\blenn\desktop\exia\ue1\_projeeet\ue-1-projet-grp7\livrable\m4\module 4 code\menu.h
 	<stdio.h>
 	<stdlib.h>
@@ -147,7 +163,7 @@
 	<stdlib.h>
 
 1511020733 source:c:\users\blenn\desktop\exia\ue1\_projeeet\ue-1-projet-grp7\livrable\m4\module 4 code\donnees.c
-=======
+
 1511104228 c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\menu.h
 	<stdio.h>
 	<stdlib.h>
@@ -161,32 +177,12 @@
 	<stdlib.h>
 
 1511104228 source:c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\donnees.c
->>>>>>> 689dc654c600a055c0204aba47eb3adbfd9ba80b
-	<stdio.h>
-	<stdlib.h>
-	"menu.h"
-	"donnees.h"
-	"actions.h"
 
-<<<<<<< HEAD
 1511020733 source:c:\users\blenn\desktop\exia\ue1\_projeeet\ue-1-projet-grp7\livrable\m4\module 4 code\main.c
-=======
-1511104228 source:c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\main.c
->>>>>>> 689dc654c600a055c0204aba47eb3adbfd9ba80b
-	<stdio.h>
-	<stdlib.h>
-	"menu.h"
-	"donnees.h"
-	"actions.h"
 
-<<<<<<< HEAD
+1511104228 source:c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\main.c
+
 1511020733 source:c:\users\blenn\desktop\exia\ue1\_projeeet\ue-1-projet-grp7\livrable\m4\module 4 code\menu.c
-=======
+
 1511104228 source:c:\users\louka\documents\docs exia\projeeet 1\ue-1-projet-grp7\livrable\m4\module 4 code\menu.c
->>>>>>> 689dc654c600a055c0204aba47eb3adbfd9ba80b
-	<stdio.h>
-	<stdlib.h>
-	"menu.h"
-	"donnees.h"
-	"actions.h"
 
