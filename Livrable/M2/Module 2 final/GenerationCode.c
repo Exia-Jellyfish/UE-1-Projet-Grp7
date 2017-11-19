@@ -5,7 +5,7 @@
     void generateHeader(int *modeAffichage, int *nbLedsAllummees, int *LedAllumee)
     {
         FILE* fout = NULL;
-        fout = fopen("param.h", "w");   //param.h est un fichier txt qui sera modifié par le programme pour que l'Arduino reconnaisse le mode d'allumage de l'Arduino.
+        fout = fopen("C:\\Users\\louka\\Documents\\Docs Exia\\PROJEEET 1\\UE-1-Projet-Grp7\\Livrable\\M2\\Module 2 final\\Coeur.c_Arduino\\param.h", "w");   //param.h est un fichier txt qui sera modifié par le programme pour que l'Arduino reconnaisse le mode d'allumage de l'Arduino.
         switch (*modeAffichage)
     {
             case 0:
