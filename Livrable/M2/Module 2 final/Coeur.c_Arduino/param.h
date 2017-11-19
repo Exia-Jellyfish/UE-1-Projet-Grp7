@@ -1,1 +1,1 @@
-int modeAffichage = 4;
+int modeAffichage = 12;
