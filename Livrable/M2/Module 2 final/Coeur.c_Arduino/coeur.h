@@ -51,7 +51,6 @@ void LedSur2_1(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5,HIGH);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,HIGH);
-    digitalWrite(pin8,HIGH);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9,HIGH);
     digitalWrite(pin10, LOW);
@@ -68,7 +67,6 @@ void LedSur2_1(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -111,7 +109,6 @@ void LedSur2_2(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6,LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8,LOW);
     digitalWrite(pin9,LOW);
     digitalWrite(pin10,LOW);
 
@@ -136,9 +133,8 @@ void LedSur1_3(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,HIGH);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8, LOW);
-    digitalWrite(pin9,HIGH);
-    digitalWrite(pin10, LOW);
+    digitalWrite(pin9,LOW);
+    digitalWrite(pin10, HIGH);
   
 
     delay(416);
@@ -151,7 +147,6 @@ void LedSur1_3(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -177,8 +172,7 @@ void LedSur1_4(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8, HIGH);
-    digitalWrite(pin9,LOW);
+    digitalWrite(pin9,HIGH);
     digitalWrite(pin10, LOW);
 
 
@@ -192,7 +186,6 @@ void LedSur1_4(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -218,9 +211,8 @@ void LedSur1_5(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, HIGH);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin9,LOW);
-    digitalWrite(pin10,HIGH);
+    digitalWrite(pin10,LOW);
 
  
     delay(416);
@@ -233,7 +225,6 @@ void LedSur1_5(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -260,7 +251,6 @@ void LedSur1_6(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,HIGH);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin9,LOW);
     digitalWrite(pin10, LOW);
 
@@ -275,7 +265,6 @@ void LedSur1_6(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -301,7 +290,6 @@ void LedSur1_7(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,HIGH);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin9,LOW);
     digitalWrite(pin10, LOW);
 
@@ -316,7 +304,6 @@ void LedSur1_7(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -342,8 +329,7 @@ void LedSur1_8(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6, LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8, HIGH);
-    digitalWrite(pin9,LOW);
+    digitalWrite(pin9,HIGH);
     digitalWrite(pin10, LOW);
 
   
@@ -357,7 +343,6 @@ void LedSur1_8(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -383,9 +368,8 @@ void LedSur1_9(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin6,LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8,LOW);
-    digitalWrite(pin9,HIGH);
-    digitalWrite(pin10,LOW);
+    digitalWrite(pin9,LOW);
+    digitalWrite(pin10,HIGH);
 
 
     delay(416);
@@ -398,7 +382,6 @@ void LedSur1_9(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int 
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
@@ -424,9 +407,8 @@ void LedSur1_10(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int
     digitalWrite(pin6,LOW);
     digitalWrite(pin7,LOW);
     digitalWrite(pin8,LOW);
-    digitalWrite(pin8,LOW);
     digitalWrite(pin9,LOW);
-    digitalWrite(pin10,HIGH);
+    digitalWrite(pin10,LOW);
 
 
     delay(416);
@@ -439,7 +421,6 @@ void LedSur1_10(int pin11, int pin2, int pin3, int pin4, int pin5, int pin6, int
     digitalWrite(pin5, LOW);
     digitalWrite(pin6, LOW);
     digitalWrite(pin7, LOW);
-    digitalWrite(pin8, LOW);
     digitalWrite(pin8, LOW);
     digitalWrite(pin9, LOW);
     digitalWrite(pin10, LOW);
