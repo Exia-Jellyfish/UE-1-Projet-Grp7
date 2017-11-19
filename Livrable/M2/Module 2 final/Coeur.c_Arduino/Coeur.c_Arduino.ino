@@ -20,7 +20,7 @@ void setup() //initialisation de l'arduino
 
 {
 
-  // pinMode(Ledpin, OUTPUT
+  // pinMode(Ledpin, OUTPUT)
 
   
   pinMode(pin2,OUTPUT);
@@ -45,13 +45,13 @@ void loop() {
   // Main code qui tourne en boucle
 
 
- switch (choix) 
+ switch (modeAffichage) 
 
  {
     case 1:
 
     {
-      allumer(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      allumer(pin11, pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10,  modeAffichage);
 
       break;
 
@@ -60,7 +60,7 @@ void loop() {
     case 2:
 
     {
-      LedSur2_1(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur2_1(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -69,7 +69,7 @@ void loop() {
     case 3:
     {
 
-      LedSur2_2(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur2_2(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -78,7 +78,7 @@ void loop() {
     case 4:
     {
 
-      LedSur1_3(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_3(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -87,7 +87,7 @@ void loop() {
     case 5:
     {
 
-      LedSur1_4(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_4(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -96,7 +96,7 @@ void loop() {
     case 6:
     {
 
-      LedSur1_5(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_5(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -105,7 +105,7 @@ void loop() {
     case 7:
     {
 
-      LedSur1_6(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_6(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -114,7 +114,7 @@ void loop() {
     case 8:
     {
 
-      LedSur1_7(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_7(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -123,7 +123,7 @@ void loop() {
     case 9:
     {
 
-      LedSur1_8(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_8(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -132,7 +132,7 @@ void loop() {
     case 10:
     {
 
-      LedSur1_9(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_9(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -141,7 +141,7 @@ void loop() {
     case 11:
     {
 
-      LedSur1_10(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      LedSur1_10(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 
@@ -150,7 +150,7 @@ void loop() {
     case 12:
     {
 
-      chenille(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, ModeAffichage);
+      chenille(pin11,  pin2,  pin3,  pin4,  pin5,  pin6,  pin7,  pin8,  pin9,  pin10, modeAffichage);
 
       break;
 

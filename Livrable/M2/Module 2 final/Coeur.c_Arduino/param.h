@@ -1,0 +1,1 @@
+int modeAffichage = 4;

@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "menu.h"
 
-void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *ledAllumee)
+void choixMenu(int *modeAffichage, int *nbLedsAllumees,int *LedsAllumees, int *ledAllumee)
 {
     printf("Bonjour,\nChoisissez les parametres d'affichage de vos Leds :"
                    "\nTapez 0 pour un clignotement au rythme du coeur"
@@ -20,11 +20,54 @@ void choixMenu(int *modeAffichage, int *nbLedsAllumees, int *ledAllumee)
             {
                 printf("\nTapez une valeur comprise entre 1 et 10 : ");
                 scanf("%d", nbLedsAllumees);
-                if (*nbLedsAllumees < 1 || *nbLedsAllumees > 10)   //Le if servira de sécurité en cas d'erreur dans l'entrée de valeurs dans chaque cas
-                {
-                    printf("\nValeur non comprise entre 1 et 10 !\n");
-                    *nbLedsAllumees = -1;
-                }
+                    switch (*nbLedsAllumees)
+                    {
+                        case 2 :
+                            {
+                                *LedsAllumees = 3;
+                            }
+                            break;
+                        case 3 :
+                            {
+                                *LedsAllumees = 4;
+                            }
+                            break;
+                        case 4 :
+                            {
+                                *LedsAllumees = 5;
+                            }
+                            break;
+                        case 5 :
+                            {
+                                *LedsAllumees = 6;
+                            }
+                            break;
+                        case 6 :
+                            {
+                                *LedsAllumees = 7;
+                            }
+                            break;
+                        case 7 :
+                            {
+                                *LedsAllumees = 8;
+                            }
+                        case 8 :
+                            {
+                                *LedsAllumees = 9;
+                            }
+                            break;
+                        case 9 :
+                            {
+                                *LedsAllumees = 10;
+                            }
+                            break;
+                        case 10 :
+                            {
+                                *LedsAllumees = 11;
+                            }
+                            break;
+                    }
+
             }
             break;
         case 2:

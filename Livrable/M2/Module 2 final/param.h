@@ -1,2 +1,2 @@
-int modeAffichage = 3;
-int nbLedsAllumees = 1;
+int modeAffichage = 1;
+int nbLedsAllumees = 2;
